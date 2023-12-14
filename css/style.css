@@ -1,0 +1,74 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(233, 191, 139);
+}
+/* Add this to your style.css file */
+
+#post-content p.tags::before {
+    content: 'Tags: ';
+    color: #333; /* Dark color for 'Tags: ' */
+    font-weight: bold;
+}
+#pun-list-body p.tags::before{
+    content: 'Tags: ';
+    color: #333; /* Dark color for 'Tags: ' */
+    font-weight: bold;
+}
+#pun-list-body tr{
+    border-top: 1px solid #333;
+}
+#pun-list{
+    border-top: 1px solid #333;
+}
+
+#container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+h1 {
+    color: #333;
+}
+
+nav {
+    margin-left: 90%;
+    
+   
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#main-nav {
+    margin-bottom: 20px;
+}
+
+#pun-list {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#pun-list th, #pun-list td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+#post-content {
+    margin-top: 20px;
+}
+
+/* Add more styles as needed for your specific design */
