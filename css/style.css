@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 /* style.css */
-=======
-
->>>>>>> 958d1b49a07c982f57a779f97891797e00b45ca4
 
 body {
     font-family: Arial, sans-serif;
@@ -10,28 +6,16 @@ body {
     padding: 0;
     background-color: rgb(233, 191, 139);
 }
-<<<<<<< HEAD
 /* Add this to your style.css file */
 
 #post-content p.tags::before {
     content: 'Tags: ';
     color: #333; /* Dark color for 'Tags: ' */
-=======
-
-
-#post-content p.tags::before {
-    content: 'Tags: ';
-    color: #333; 
->>>>>>> 958d1b49a07c982f57a779f97891797e00b45ca4
     font-weight: bold;
 }
 #pun-list-body p.tags::before{
     content: 'Tags: ';
-<<<<<<< HEAD
     color: #333; /* Dark color for 'Tags: ' */
-=======
-    color: #333; 
->>>>>>> 958d1b49a07c982f57a779f97891797e00b45ca4
     font-weight: bold;
 }
 #pun-list-body tr{
