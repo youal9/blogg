@@ -27,7 +27,11 @@ document.addEventListener('DOMContentLoaded', function () {
   
             document.getElementById('pun-list-body').innerHTML = punsListHTML;
   
+<<<<<<< HEAD
             // Add event listener to each delete button
+=======
+            
+>>>>>>> 958d1b49a07c982f57a779f97891797e00b45ca4
             let deleteBtns = document.querySelectorAll('.delete-btn');
             for (let btn of deleteBtns) {
                 btn.addEventListener('click', async function (e) {
@@ -37,13 +41,21 @@ document.addEventListener('DOMContentLoaded', function () {
                 });
             }
   
+<<<<<<< HEAD
             // Add event listener to each update button
+=======
+            
+>>>>>>> 958d1b49a07c982f57a779f97891797e00b45ca4
             let updateBtns = document.querySelectorAll('.update-btn');
             for (let btn of updateBtns) {
                 btn.addEventListener('click', function (e) {
                     e.preventDefault();
                     const punIdToUpdate = e.target.dataset.id;
+<<<<<<< HEAD
                     // Redirect to update-pun.html with pun ID as a query parameter
+=======
+                    
+>>>>>>> 958d1b49a07c982f57a779f97891797e00b45ca4
                     window.location.href = `update-pun.html?id=${punIdToUpdate}`;
                 });
             }
@@ -60,11 +72,19 @@ document.addEventListener('DOMContentLoaded', function () {
                     'Content-Type': 'application/json'
                 },
             });
+<<<<<<< HEAD
             // Remove the pun from the DOM
+=======
+            
+>>>>>>> 958d1b49a07c982f57a779f97891797e00b45ca4
             document.querySelector(`[data-id="${punId}"]`).remove();
         } catch (error) {
             console.error(error);
         }
     }
+<<<<<<< HEAD
 
 } );
+=======
+});
+>>>>>>> 958d1b49a07c982f57a779f97891797e00b45ca4

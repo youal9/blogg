@@ -1,5 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
+<<<<<<< HEAD
     // Move fetchAllPuns function call inside the event listener
+=======
+    
+>>>>>>> 958d1b49a07c982f57a779f97891797e00b45ca4
     fetchAllPuns();
 
     async function fetchAllPuns() {
@@ -26,6 +30,11 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
+<<<<<<< HEAD
     // The deletePun and updatePun functions can be defined here
     // Add event listeners for delete and update buttons if needed
+=======
+    
+    
+>>>>>>> 958d1b49a07c982f57a779f97891797e00b45ca4
 });

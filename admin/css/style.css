@@ -7,7 +7,11 @@ body {
 }
 
 #container {
+<<<<<<< HEAD
     max-width: 800px; /* Adjust the max-width as needed */
+=======
+    max-width: 800px; 
+>>>>>>> 958d1b49a07c982f57a779f97891797e00b45ca4
     margin: 0 auto;
     padding: 20px;
 }
@@ -52,7 +56,11 @@ body {
 
 
 
+<<<<<<< HEAD
 /* Apply a basic reset to remove default margin and padding */
+=======
+
+>>>>>>> 958d1b49a07c982f57a779f97891797e00b45ca4
 
 
 
